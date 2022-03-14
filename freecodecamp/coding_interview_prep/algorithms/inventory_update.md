@@ -1,6 +1,11 @@
-/* 
-  return updated  {listInventory[]}
- */
+We're trying to break inventory_update from the free code camp
+
+
+
+First you need a function that use to solve the problem
+We put logic to solve the problem in this function
+
+```js
 function updateInventory(arr1, arr2) {
 	let new_array = [];
 	let old_array = [];
@@ -47,8 +52,10 @@ function updateInventory(arr1, arr2) {
 
 	return arr1;
 }
+```
 
-// Example inventory lists
+this is the array we want to solve
+```js
 var curInv = [
 	[21, "Bowling Ball"],
 	[2, "Dirty Sock"],
@@ -62,5 +69,15 @@ var newInv = [
 	[67, "Bowling Ball"],
 	[7, "Toothpaste"],
 ];
+```
 
+call the function
+we call the function with different array
+```js
 updateInventory([], [[2, "Hair Pin"], [3, "Half-Eaten Apple"], [67, "Bowling Ball"], [7, "Toothpaste"]]);
+
+```
+you can try this function with curInv and newInv array
+```js
+updateInventory(curInv, newInv)
+```
