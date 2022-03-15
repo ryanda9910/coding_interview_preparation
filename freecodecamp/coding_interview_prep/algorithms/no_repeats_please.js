@@ -15,8 +15,6 @@ function permAlone(str) {
     tmp = arr[index1];
     arr[index1] = arr[index2];
     arr[index2] = tmp;
-
-    console.log("arr1",arr[index1],"arr2",arr[index2])
   }
 
   // Generate arrays of permutations using the algorithm.
@@ -32,7 +30,6 @@ function permAlone(str) {
       }
     }
   }
-  console.log("arr",arr)
   generate(arr.length);
 
   // Filter the array of repeated permutations.
