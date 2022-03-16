@@ -1,3 +1,6 @@
+To be honest we don't really understand logic for permutations, so we're just taking solutions from the solution features available.
+
+```js
 function permAlone(str) {
   // Create a regex to match repeated consecutive characters.
   let regex = /(.)\1+/;
@@ -44,3 +47,5 @@ function permAlone(str) {
 permAlone('aaabb');
 
 
+
+```
