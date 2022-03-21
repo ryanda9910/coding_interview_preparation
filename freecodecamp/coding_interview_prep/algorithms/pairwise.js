@@ -5,6 +5,7 @@ function pairwise(arr, arg) {
     for (let j = i + 1; j < arr.length; j++) {
 
       // Exclude pairs that contain previously paired elements
+
       if (arr[i] + arr[j] == arg
           && !pairIndices.includes(i)
           && !pairIndices.includes(j)) {
@@ -18,3 +19,5 @@ function pairwise(arr, arg) {
 
   return result;
 }
+
+pairwise([1, 4, 2, 3, 0, 5], 7)
