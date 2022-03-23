@@ -1,5 +1,7 @@
 We're trying to solve implement_bubble_sort from the freecodecamp
 
+![implement_insertion_sort](image/Bubble-sort-example.gif)
+
 ```js
 function bubbleSort(array) {
   for(let i = 0; i < array.length; i++){ // compare each element to the one 
